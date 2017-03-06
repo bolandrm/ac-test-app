@@ -1,3 +1,13 @@
+# autocert testing
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bolandrm/ac-test-app)
+
+1. get permission to test alpha app (you'll get an email)
+1. deploy the app using the heroku button above
+1. run `heroku addons:create autocert --app [your-app-name]`
+1. run `heroku addons:open autocert --app [your-app-name]`
+
+
 # ToDo application
 
 ![](http://2.bp.blogspot.com/-vSvB3qOWx8E/UqJ6HzPNnqI/AAAAAAAAAlg/gw9xz9uB36Y/s640/6.png)
