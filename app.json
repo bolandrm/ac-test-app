@@ -1,0 +1,11 @@
+{
+  "name": "TODO app",
+  "description": "todo app",
+  "repository": "https://github.com/bolandrm/ac-test-app",
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:setup"
+  }
+}
